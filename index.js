@@ -2,7 +2,7 @@ const express= require('express')
 
 const app=express()
 app.use(express.json())
-const port =3015
+const port =3016
 
 
 
@@ -12,9 +12,6 @@ app.get('/',(req,res)=>{
         notice :'welcome to notes taking app'
     })
 })
-
-
-
 
 
 
